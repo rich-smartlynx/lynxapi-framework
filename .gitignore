@@ -1,1 +1,6 @@
 .build/.lock
+.build/workspace-state.json
+.build/artifacts/swift-framework/lynxapi/lynxapi.xcframework.zip
+.build/index-build/workspace-state.json
+.build/index-build/arm64-apple-macosx/debug/index/db/v13/p61711--886f21/data.mdb
+.build/index-build/arm64-apple-macosx/debug/index/db/v13/p61711--886f21/lock.mdb
