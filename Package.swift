@@ -13,7 +13,7 @@ let package = Package(
         .binaryTarget(
             name: "lynxapi",
             url: "https://github.com/rich-smartlynx/swift-framework/releases/download/dev-1.0.6-tag/lynxapi.xcframework.zip",
-            checksum: "c16dd72ce18a7ed0815fbd53d6550c30b063a6f9db9a50be53ee6b3ee9bbf529"
+            checksum: "ec97e471c6fda57c47ed3ccbf06787efe919255fb83188681fd4637638f22c30"
         ),
     ]
 )
