@@ -3,17 +3,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "Swift-LynxAPI",
+    name: "lynxapi",
     products: [
         .library(
-            name: "Swift-LynxAPI",
+            name: "lynxapi",
             targets: ["lynxapi"]),
     ],
     targets: [
         .binaryTarget(
             name: "lynxapi",
-            url: "https://github.com/rich-smartlynx/swift-framework/releases/download/main-tag/lynxapi.xcframework.zip",
-            checksum: "c16dd72ce18a7ed0815fbd53d6550c30b063a6f9db9a50be53ee6b3ee9bbf529"
+            url: "https://github.com/rich-smartlynx/lynxapi-framework/releases/download/1.0.7-tag/lynxapi.xcframework.zip",
+            checksum: "6d5cb0df78e7ea120d64b416fa5efad252b066a87a411fcab0a2929cccf51c68"
         ),
     ]
 )
