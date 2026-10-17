@@ -18,6 +18,7 @@ public struct LinkResults {
     public let confidence: Float
     public let openCount: Int // Number of times your app has been run (assuming you call checkForLink on every open)
     public let linkType: LynkType
+    public let remoteLogEnabled: Bool // Has the dashboard turned on remote logging for this version
 }
 
 public enum LynkType: Int, Codable {
